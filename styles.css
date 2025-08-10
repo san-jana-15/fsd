@@ -241,9 +241,49 @@ h1 {
   background-color: #e65c00;
 }
 
+.dropdown {
+  border: none;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 87px;
+}
+
+.dropdown1 {
+  border: none;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 57px;
+}
+
+.dropdown2 {
+  border: none;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 75px;
+}
+
+.dropdown, .dropdown1, .dropdown2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 10px 25px 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='orange'><path d='M0 0 L5 6 L10 0 Z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-size: 10px 6px;
+}
+
 @media (max-width: 768px) {
   .search-container {
     flex-direction: column;
     gap: 20px;
+  
   }
 }
